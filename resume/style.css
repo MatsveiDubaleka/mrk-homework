@@ -1,0 +1,266 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff5ee;
+  width: 100%;
+  height: 1000px;
+}
+
+.resume {
+  width: 900px;
+  height: 1000px;
+  border: 8px solid wheat;
+  background-color: white;
+  margin: auto;
+  display: flex;
+  box-shadow: -10px 0px 200px rgba(0, 0, 0, 0.7);
+  font-family: "Poppins", sans-serif;
+}
+
+.f {
+  display: flex;
+}
+
+.f-col {
+  flex-direction: column;
+}
+
+header {
+  width: 300px;
+  height: 300px;
+  margin: 30px auto 30px 60px;
+  line-height: 20px;
+}
+
+.me {
+  color: rgba(0, 0, 0, 0.7);
+
+  font-size: 30px;
+  font-weight: 200;
+  line-height: 30px;
+}
+
+.surname {
+  font-weight: 800;
+}
+
+.text-aboutme {
+  font-weight: 100;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: lighter;
+}
+
+.myself {
+  border: 2px solid pink;
+  background: url("./img/Ja514AZsamY.jpg") 50% 50%;
+  border-radius: 50% 50%;
+  opacity: 0.9;
+  background-size: cover;
+  width: 150px;
+  height: 150px;
+}
+
+main {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  margin-left: 20px;
+  margin-top: 40px;
+  margin: 40px 20px;
+}
+
+.logo {
+  width: 10px;
+  height: 10px;
+}
+
+main .logo-1 {
+  padding: 7px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50% 50%;
+  background-size: cover;
+}
+
+.sidebar {
+  width: 60%;
+  height: 100%;
+  padding: 0 30px;
+  background-color: #5f9ea0;
+  font-weight: 200;
+  color: whitesmoke;
+  font-size: 13px;
+}
+
+.side-info_img img {
+  width: 25px;
+}
+
+.side-info_img {
+  width: 25px;
+  margin-right: 7px;
+}
+
+.side-info_block {
+  position: relative;
+  padding-top: 35px;
+  margin-top: 15px;
+}
+
+.side-info_title {
+  padding: 5px 15%;
+  background: white;
+  border: 2px solid darkslategray;
+  transform: translate(-50%, -50%);
+
+  color: black;
+  text-transform: uppercase;
+  position: absolute;
+  font-size: 15px;
+}
+
+.contacts {
+  top: -15px;
+  left: 50%;
+}
+
+.follow {
+  padding: 5px 18%;
+  top: 3%;
+  left: 50%;
+}
+
+.languages {
+  padding: 5px 14%;
+  top: 10%;
+  left: 50%;
+}
+
+.hobby {
+  top: 10%;
+  left: 50%;
+}
+
+.side-info_follow {
+  margin-top: 80px;
+}
+
+.side-info_languages {
+  margin-top: 50px;
+}
+
+.side-info_hobby {
+  margin-top: 100px;
+}
+
+.side_language {
+  margin-top: 5px;
+}
+
+.side_language.russian {
+  margin-right: 36px;
+}
+
+.side_language.english {
+  margin-right: 41px;
+}
+
+.side_language.belarussian {
+  margin-right: 11px;
+}
+
+.side_language.ukranian {
+  margin-right: 28px;
+}
+
+.side_links a {
+  text-decoration: none;
+  color: White;
+}
+
+.black-circle {
+  background: black;
+  opacity: 0.8;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  margin-top: 9px;
+  margin-left: 5px;
+}
+
+.white-circle {
+  background: white;
+  opacity: 0.9;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  margin-top: 9px;
+  margin-left: 5px;
+}
+
+main {
+  width: auto;
+  background: white;
+  padding: 0px 10px;
+}
+
+p {
+  font-size: 13px;
+  font-weight: 200;
+}
+
+.about-me .p {
+}
+.about-me_img {
+  margin-right: 10px;
+  width: 30px;
+  height: 30px;
+  background: wheat;
+  border-radius: 50%;
+  padding: 7px;
+}
+
+.side-info_item {
+  align-items: center;
+  margin-top: 5px;
+}
+
+.about-me_img img {
+  width: 100%;
+}
+
+.about-me,
+.education {
+  text-align: start;
+}
+
+main h3 {
+  border-bottom: 2px solid #000;
+  width: 100%;
+}
+
+.about-me_title {
+  align-items: center;
+}
+
+.side {
+  display: flex;
+  flex-direction: column;
+}
+
+.education_title {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 5px;
+}
+
+.years {
+  text-align: end;
+  font-style: italic;
+  margin: 0;
+  padding: 0;
+
+  font-size: 12px;
+}
