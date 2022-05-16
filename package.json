@@ -1,0 +1,19 @@
+{
+  "name": "mrk-homework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatsveiDubaleka/mrk-homework.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MatsveiDubaleka/mrk-homework/issues"
+  },
+  "homepage": "https://github.com/MatsveiDubaleka/mrk-homework#readme"
+}
